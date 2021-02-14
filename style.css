@@ -1,0 +1,72 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+html {
+  padding: 0px;
+  margin: 0px;
+}
+
+#mainContainer {
+  padding: 0px;
+  margin: 0px;
+}
+
+#headBar {
+  font-family: Teko;
+  padding: 0px;
+  margin: 0px;
+  background-color: #000;
+  text-align: center;
+  height: 70px;
+  width: 100vw;
+}
+
+h1 {
+  padding: 0px;
+  padding-top: 5px;
+  margin: 0px;
+  color: #fff;
+  font-size: 45px;
+}
+
+.heading {
+display: inline-block;
+padding: 0px;
+margin: 0px;
+}
+
+#insButton {
+  position: absolute;
+  top: 23px;
+  right: 35px;
+  font-size: 23px;
+  color: #fff;
+}
+
+#headImage {
+  width: 100vw;
+  height: 105vh;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#albumOne {
+  height: 50vh;
+  width: 100vw;
+  background-color: #48a1bc;
+}
+
+#albumTwo {
+  height: 50vh;
+  width: 100vw;
+  background-color: #fc3200;
+}
+
+#albumThree {
+  height: 50vh;
+  width: 100vw;
+  background-color: #c3c9cf;
+}
