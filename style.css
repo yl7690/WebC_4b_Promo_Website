@@ -88,8 +88,8 @@ html {
   padding: 0px;
   display: inline-block;
   padding-left: 5vw;
-  font-size: 1vw;
-  font-family: Titillium;
+  font-size: 1.2vw;
+  font-family: Barlow Semi Condensed;
 }
 
 .icons {
@@ -100,20 +100,114 @@ html {
   padding-right: 2.5vw;
 }
 
+#albumHeading {
+  background-color: #efefef;
+  margin:0px;
+  padding-top: 6vw;
+
+}
+
+h1 {
+  border-bottom: 0.5vw solid #000;
+  width: 16vw;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15vw;
+  font-size: 3vw;
+  font-family: Rajdhani;
+
+}
+
 #albumOne {
-  height: 50vh;
   width: 100vw;
-  background-color: #48a1bc;
+  background-color: #efefef;
+  padding-top: 12vw;
+  padding-bottom: 10vw;
+}
+
+.OddAlbumPic {
+  height: 20vw;
+  width: 20vw;
+  margin: 0px;
+  margin-left: 15vw;
+  background-color: #fff;
+  display: inline-block;
+}
+
+.albumCover {
+  height: 100%;
+  width: 100%;
+}
+
+.albumContent {
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 9vw;
+  width: 50%;
+}
+
+.albumName {
+  font-family: Teko;
+  font-size: 4vw;
+  /* padding-bottom: 1vw; */
+}
+
+.releasedDate {
+  font-size: 1.5vw;
+  font-family: Teko;
+  padding-bottom: 1.5vw;
+  color: #525252;
+}
+
+.songNames {
+  font-size: 1.6vw;
+  font-family: Barlow Semi Condensed;
+  padding-left: 1.5vw;
+}
+
+.columnOne {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 20%;
+}
+
+.columnTwo {
+  display: inline-block;
+  vertical-align: top;
+}
+
+ol {
+  margin: 0px;
+  padding: 0px;
+}
+
+a:link {
+  color: #000;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #000;
+  text-decoration: underline;
 }
 
 #albumTwo {
   height: 50vh;
   width: 100vw;
-  background-color: #fc3200;
+  background-color: #efefef;
+  padding-top: 12vw;
+  padding-bottom: 10vw;
 }
 
 #albumThree {
   height: 50vh;
   width: 100vw;
-  background-color: #c3c9cf;
+  background-color: #efefef;
+  padding-top: 12vw;
+  padding-bottom: 10vw;
 }
