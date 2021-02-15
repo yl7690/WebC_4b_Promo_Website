@@ -50,8 +50,9 @@ html {
 
 #profilePage {
   width: 100vw;
-  padding-top: 7vw;
+  padding-top: 6vw;
   padding-bottom: 5vw;
+  background-color: #dcdcdc;
 }
 
 #profileLeft {
