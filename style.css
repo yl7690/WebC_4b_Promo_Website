@@ -104,6 +104,7 @@ html {
   background-color: #efefef;
   margin:0px;
   padding-top: 6vw;
+  width: 100vw;
 
 }
 
@@ -122,7 +123,7 @@ h1 {
   width: 100vw;
   background-color: #efefef;
   padding-top: 12vw;
-  padding-bottom: 10vw;
+  /* padding-bottom: 10vw; */
 }
 
 .OddAlbumPic {
@@ -132,6 +133,7 @@ h1 {
   margin-left: 15vw;
   background-color: #fff;
   display: inline-block;
+  box-shadow: 10px 10px 5px grey;
 }
 
 .albumCover {
@@ -139,41 +141,86 @@ h1 {
   width: 100%;
 }
 
-.albumContent {
+.oddAlbumContent {
   display: inline-block;
   vertical-align: top;
   padding-left: 9vw;
   width: 50%;
 }
 
-.albumName {
+.oddAlbumName {
   font-family: Teko;
   font-size: 4vw;
   /* padding-bottom: 1vw; */
 }
 
-.releasedDate {
+.oddReleasedDate {
   font-size: 1.5vw;
   font-family: Teko;
   padding-bottom: 1.5vw;
   color: #525252;
 }
 
-.songNames {
+.oddSongNames {
   font-size: 1.6vw;
   font-family: Barlow Semi Condensed;
   padding-left: 1.5vw;
+}
+
+.evenAlbumPic {
+  /* position: absolute; */
+  height: 20vw;
+  width: 20vw;
+  margin: 0px;
+  margin-right: 15vw;
+  background-color: #fff;
+  display: inline-block;
+  box-shadow: 10px 10px 5px grey;
+}
+
+.evenAlbumContent {
+  display: inline-block;
+  vertical-align: top;
+  padding-right: 9vw;
+  width: 50vw;
+  /* position: absolute; */
+  text-align: right;
+}
+
+.evenAlbumName {
+  font-family: Teko;
+  font-size: 4vw;
+  width: 50vw;
+}
+
+.evenReleasedDate {
+  font-size: 1.5vw;
+  font-family: Teko;
+  padding-bottom: 1.5vw;
+  color: #525252;
+  width: 100%；
+}
+
+.evenSongNames {
+  font-size: 1.6vw;
+  font-family: Barlow Semi Condensed;
+  margin: 0px;
+  padding: 0px;
+  width: 50vw;
+  display: inline-block;
 }
 
 .columnOne {
   display: inline-block;
   vertical-align: top;
   padding-right: 20%;
+  text-align: left;
 }
 
 .columnTwo {
   display: inline-block;
   vertical-align: top;
+  text-align: left;
 }
 
 ol {
@@ -196,18 +243,41 @@ a:hover {
   text-decoration: underline;
 }
 
+.chinese {
+  font-family: Noto Sans Sc;
+  font-size: 1.3vw;
+}
+
 #albumTwo {
-  height: 50vh;
   width: 100vw;
   background-color: #efefef;
-  padding-top: 12vw;
-  padding-bottom: 10vw;
+  padding-top: 11vw;
+  text-align: right;
 }
 
 #albumThree {
-  height: 50vh;
   width: 100vw;
   background-color: #efefef;
-  padding-top: 12vw;
-  padding-bottom: 10vw;
+  padding-top: 11vw;
+}
+
+#albumFour {
+  width: 100vw;
+  background-color: #efefef;
+  padding-top: 11vw;
+  text-align: right;
+}
+
+#albumFive {
+  width: 100vw;
+  background-color: #efefef;
+  padding-top: 11vw;
+}
+
+#albumSix {
+  width: 100vw;
+  background-color: #efefef;
+  padding-top: 11vw;
+  text-align: right;
+  padding-bottom: 13vw;
 }
